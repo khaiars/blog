@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel=" stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <sc src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></sc>
+    <sc src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></sc>
+    <sc src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></sc>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="" class="logo">Binz</a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+
+    <section class="banner">
+        <div class="textBx">
+            <h1>Hello, I'm <br><span>Phan Nguyen Khai</span> </h1>
+            <h2> im front end developers</h2>
+            <a href="#" class="btn1"><span>About me</span></a>
+        </div>
+    </section>
+
+    <section class='about'>
+        <div class="heading">
+            <h2>About me</h2>
+        </div>
+        <div class='content'>
+            <div class="contentBx w50">
+                <h3>Im frontend developer</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos tempore blanditiis doloribus corrupti pariatur quas earum, et, in recusandae neque numquam sit reiciendis ad! Nulla natus iste dolor eius voluptatibus.
+                    <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo unde libero deserunt similique consectetur molestias, obcaecati iusto, quam quos velit repudiandae officia culpa eos nobis. Tempora, omnis? Quasi, voluptates
+                    iusto.
+
+                </p>
+            </div>
+            <div class="w50">
+                <img src="./images/img1.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class=""></div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('header');
+            header.classList.toggler('sticky', window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>
